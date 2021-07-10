@@ -7,7 +7,7 @@ requirements = []
 
 setup(
     name="stellar",
-    version="0.0.3",
+    version="0.0.4",
     author="Sharad Mishra",
     author_email="imsharadmishra@gmail.com",
     description="A package to merge small files using apache arrow",
