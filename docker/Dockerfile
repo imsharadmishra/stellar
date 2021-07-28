@@ -25,7 +25,7 @@ ARG HUBBLE_USER="hubble-${ENV}"
 ENV JAVA_HOME=${JAVA_HOME_ARG}
 ENV HADOOP_HOME=${HADOOP_HOME_ARG}
 ENV PATH="$PATH:$JAVA_HOME/bin:$HADOOP_HOME/bin"
-ENV CLASSPATH=`$HADOOP_HOME/bin/hdfs classpath --glob`
+ENV CLASSPATH="$HADOOP_HOME/bin/hdfs classpath --glob"
 
 # hadoop conf files for novus
 COPY hadoop/conf /conf
