@@ -18,5 +18,14 @@
 ```pip install -i https://test.pypi.org/simple/ stellar```
 
 
+### Docker image with novus-hadoop configuration and python 3.8
+```docker run --rm -ti sharadmishra/hadoop-2.7.3-centos-python38:1e  /bin/bash```
+
+### Mount current project directory into docker
+```docker run --rm -ti -v $(pwd):/stellar sharadmishra/hadoop-2.7.3-centos-python38:1e  /bin/bash```
+
+### Fixes
+```export CLASSPATH="$HADOOP_HOME/bin/hdfs classpath --glob"```
+
 
 

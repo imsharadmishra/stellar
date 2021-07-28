@@ -1,0 +1,278 @@
+  <configuration>
+    
+    <property>
+      <name>yarn.scheduler.capacity.maximum-am-resource-percent</name>
+      <value>0.3</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.maximum-applications</name>
+      <value>10000</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.node-locality-delay</name>
+      <value>40</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.queue-mappings-override.enable</name>
+      <value>false</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.resource-calculator</name>
+      <value>org.apache.hadoop.yarn.util.resource.DefaultResourceCalculator</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.acl_administer_queue</name>
+      <value>*</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.blackmarket.acl_administer_queue</name>
+      <value>*</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.blackmarket.acl_submit_applications</name>
+      <value>*</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.blackmarket.capacity</name>
+      <value>10</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.blackmarket.maximum-capacity</name>
+      <value>20</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.blackmarket.minimum-user-limit-percent</name>
+      <value>100</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.blackmarket.priority</name>
+      <value>0</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.blackmarket.state</name>
+      <value>RUNNING</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.blackmarket.user-limit-factor</name>
+      <value>2</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.capacity</name>
+      <value>100</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.default.acl_submit_applications</name>
+      <value>*</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.default.capacity</name>
+      <value>30</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.default.maximum-capacity</name>
+      <value>80</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.default.priority</name>
+      <value>0</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.default.state</name>
+      <value>RUNNING</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.default.user-limit-factor</name>
+      <value>20</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.gravy.acl_administer_queue</name>
+      <value>*</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.gravy.acl_submit_applications</name>
+      <value>*</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.gravy.capacity</name>
+      <value>10</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.gravy.maximum-capacity</name>
+      <value>20</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.gravy.minimum-user-limit-percent</name>
+      <value>100</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.gravy.priority</name>
+      <value>0</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.gravy.state</name>
+      <value>RUNNING</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.gravy.user-limit-factor</name>
+      <value>2</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.origin.acl_administer_queue</name>
+      <value>*</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.origin.acl_submit_applications</name>
+      <value>*</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.origin.capacity</name>
+      <value>10</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.origin.maximum-capacity</name>
+      <value>20</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.origin.minimum-user-limit-percent</name>
+      <value>100</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.origin.priority</name>
+      <value>0</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.origin.state</name>
+      <value>RUNNING</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.origin.user-limit-factor</name>
+      <value>2</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.priority</name>
+      <value>0</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.quasar.acl_administer_queue</name>
+      <value>*</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.quasar.acl_submit_applications</name>
+      <value>*</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.quasar.capacity</name>
+      <value>10</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.quasar.maximum-capacity</name>
+      <value>20</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.quasar.minimum-user-limit-percent</name>
+      <value>100</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.quasar.priority</name>
+      <value>0</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.quasar.state</name>
+      <value>RUNNING</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.quasar.user-limit-factor</name>
+      <value>2</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.queues</name>
+      <value>blackmarket,default,gravy,origin,quasar,stark</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.stark.acl_administer_queue</name>
+      <value>*</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.stark.acl_submit_applications</name>
+      <value>*</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.stark.capacity</name>
+      <value>30</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.stark.maximum-capacity</name>
+      <value>30</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.stark.minimum-user-limit-percent</name>
+      <value>100</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.stark.priority</name>
+      <value>0</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.stark.state</name>
+      <value>RUNNING</value>
+    </property>
+    
+    <property>
+      <name>yarn.scheduler.capacity.root.stark.user-limit-factor</name>
+      <value>2</value>
+    </property>
+    
+  </configuration>
